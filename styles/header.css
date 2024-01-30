@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  position: fixed;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #b5c97f;
+  margin-bottom: 0;
+  background: #fff;
+}
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  list-style-type: none;
+}
+.header-menu a {
+  border-bottom: 5px solid #b5c97f;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  padding: 15px 40px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: block;
+}
+.header-menu :hover {
+  background-color: #b5c97f;
+  color: white;
+}
+
+.header-image {
+  margin: 100px auto;
+  height: 200px;
+}
